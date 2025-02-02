@@ -99,6 +99,61 @@ namespace BD
             comando.ExecuteNonQuery();
         }
 
+        public DataTable captar_autor()
+        {
+            MySqlConnection conexao = conectar();
+            MySqlCommand comando = new MySqlCommand("Select id_autor AS 'ID', nome_autor AS 'Autor', nacionalidade as 'Nacionalidade' from autores", conexao);
+            MySqlDataAdapter da = new MySqlDataAdapter(comando);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+
+        public void del_autor(objAutor autor)
+        {
+            MySqlConnection conexao = conectar();
+            MySqlCommand comando = new MySqlCommand("Delete from autores where id_autor = @id_autor", conexao);
+            comando.Parameters.AddWithValue("@id_autor", autor.Id_autor);
+            comando.ExecuteNonQuery();
+        }
+
+        public void add_autor(objAutor autor)
+        {
+            MySqlConnection conexao = conectar();
+            MySqlCommand comando = new MySqlCommand("Insert into autores (nome_autor, nacionalidade) values (@nome, @nacionalidade)", conexao);
+            comando.Parameters.AddWithValue("@nome", autor.Nome_autor);
+            comando.Parameters.AddWithValue("@nacionalidade", autor.Nacionalidade);
+            comando.ExecuteNonQuery();
+        }
+
+        public bool verificar_autor(objAutor autor)
+        {
+            MySqlConnection conexao = conectar();
+            MySqlCommand comando = new MySqlCommand("Select * from autores where nome_autor=@autor", conexao);
+            comando.Parameters.AddWithValue("@autor", autor.Nome_autor);
+            reader = comando.ExecuteReader();
+            return reader.Read();
+        }
+
+        public void alt_autor(objAutor autor)
+        {
+            MySqlConnection conexao = conectar();
+            MySqlCommand comando = new MySqlCommand("Update autores set nome_autor = @autor, nacionalidade = @nacionalidade where id_autor = @id_autor", conexao);
+            comando.Parameters.AddWithValue("@autor", autor.Nome_autor);
+            comando.Parameters.AddWithValue("@nacionalidade", autor.Nacionalidade);
+            comando.Parameters.AddWithValue("@id_autor", autor.Id_autor);
+            comando.ExecuteNonQuery();
+        }
+
+        public DataTable captar_editora()
+        {
+            MySqlConnection conexao = conectar();
+            MySqlCommand comando = new MySqlCommand("Select id_editora AS 'ID', nome_editora AS 'Editora', tipo_editora AS 'Tipo', concat(pais_editora, ' - ' ,estado_editora) AS 'Localidade', site_editora as 'Site' from editoras", conexao);
+            MySqlDataAdapter da = new MySqlDataAdapter(comando);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
 
 
     }

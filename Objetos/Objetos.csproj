@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="objAutor.cs" />
     <Compile Include="objGenero.cs" />
     <Compile Include="objUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -48,3 +48,6 @@ D:\Projetos\Biblioteca\Views\bin\Debug\Negocio.pdb
 D:\Projetos\Biblioteca\Views\obj\Debug\Views.FormAddUser.resources
 D:\Projetos\Biblioteca\Views\obj\Debug\Views.FormGenero.resources
 D:\Projetos\Biblioteca\Views\obj\Debug\Views.Resources.FormAddGenero.resources
+D:\Projetos\Biblioteca\Views\obj\Debug\Views.FormAutor.resources
+D:\Projetos\Biblioteca\Views\obj\Debug\Views.FormAddAutor.resources
+D:\Projetos\Biblioteca\Views\obj\Debug\Views.FormEditora.resources

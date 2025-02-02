@@ -59,6 +59,7 @@
             this.lblTitle.Size = new System.Drawing.Size(318, 32);
             this.lblTitle.TabIndex = 16;
             this.lblTitle.Text = "Função Gênero Literário";
+            this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
             // txtGenero
             // 
@@ -69,6 +70,7 @@
             this.txtGenero.Name = "txtGenero";
             this.txtGenero.Size = new System.Drawing.Size(208, 22);
             this.txtGenero.TabIndex = 17;
+            this.txtGenero.TextChanged += new System.EventHandler(this.txtGenero_TextChanged);
             // 
             // panel3
             // 
@@ -77,6 +79,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(224, 2);
             this.panel3.TabIndex = 18;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // label2
             // 
@@ -88,6 +91,7 @@
             this.label2.Size = new System.Drawing.Size(109, 19);
             this.label2.TabIndex = 19;
             this.label2.Text = "Gênero Literário";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
@@ -99,6 +103,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(438, 67);
             this.panel1.TabIndex = 20;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel4
             // 
@@ -107,6 +112,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(437, 5);
             this.panel4.TabIndex = 24;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // panel5
             // 
@@ -115,6 +121,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(437, 5);
             this.panel5.TabIndex = 21;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // panel2
             // 
@@ -123,6 +130,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(437, 5);
             this.panel2.TabIndex = 23;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel6
             // 
@@ -131,6 +139,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(5, 275);
             this.panel6.TabIndex = 24;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // panel7
             // 
@@ -139,6 +148,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(10, 346);
             this.panel7.TabIndex = 25;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // imgErrGen
             // 
@@ -150,6 +160,7 @@
             this.imgErrGen.TabIndex = 26;
             this.imgErrGen.TabStop = false;
             this.imgErrGen.Visible = false;
+            this.imgErrGen.Click += new System.EventHandler(this.imgErrGen_Click);
             // 
             // btnAdd
             // 
@@ -195,7 +206,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAddGenero";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Form1";
+            this.Text = "Gênero Literário";
             this.Load += new System.EventHandler(this.FormAddGenero_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

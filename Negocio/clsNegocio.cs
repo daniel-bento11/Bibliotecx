@@ -52,5 +52,35 @@ namespace Negocio
         {
             con.alt_genero(genero);
         }
+
+        public DataTable Captar_autor()
+        {
+            return con.captar_autor();
+        }
+
+        public void Del_Autor(objAutor autor)
+        {
+            con.del_autor(autor);
+        }
+
+        public void Add_Autor(objAutor autor)
+        {
+            con.add_autor(autor);
+        }
+
+        public bool Verificar_Autor(objAutor autor)
+        {
+            return con.verificar_autor(autor);
+        }
+
+        public void Alt_Autor(objAutor autor)
+        {
+            con.alt_autor(autor);
+        }
+
+        public DataTable Captar_editora()
+        {
+            return con.captar_editora();
+        }
     }
 }

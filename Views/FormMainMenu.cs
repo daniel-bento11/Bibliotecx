@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -30,14 +31,22 @@ namespace Views
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult resposta = MessageBox.Show("Deseja relamente sair?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (resposta == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
             FormLogin login = new FormLogin();
-            login.ShowDialog();
-            Close();
+            DialogResult resposta = MessageBox.Show("Deseja relamente fazer logout?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (resposta == DialogResult.Yes)
+            {
+                this.Hide();
+                login.ShowDialog();
+            }
             
         }
 
@@ -50,6 +59,18 @@ namespace Views
         private void FormMainMenu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAutor_Click(object sender, EventArgs e)
+        {
+            FormAutor frmAutor = new FormAutor();
+            frmAutor.ShowDialog();
+        }
+
+        private void btnEditora_Click(object sender, EventArgs e)
+        {
+            FormEditora frmEditora = new FormEditora();
+            frmEditora.ShowDialog();
         }
     }
 }

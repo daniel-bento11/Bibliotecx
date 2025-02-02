@@ -1,12 +1,153 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projetos\\Biblioteca\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|d:\\projetos\\biblioteca\\views\\formeditora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|solutionrelative:views\\formeditora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|d:\\projetos\\biblioteca\\views\\formeditora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|solutionrelative:views\\formeditora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|d:\\projetos\\biblioteca\\views\\formautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|solutionrelative:views\\formautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|d:\\projetos\\biblioteca\\views\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|solutionrelative:views\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|d:\\projetos\\biblioteca\\views\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|solutionrelative:views\\formmainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|d:\\projetos\\biblioteca\\views\\formautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF10FE02-216A-401B-AD56-BBFE1E7A9D66}|Views\\Views.csproj|solutionrelative:views\\formautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77A40229-5DA4-4529-9DDB-1865A67AA564}|Negocio\\Negocio.csproj|d:\\projetos\\biblioteca\\negocio\\clsnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77A40229-5DA4-4529-9DDB-1865A67AA564}|Negocio\\Negocio.csproj|solutionrelative:negocio\\clsnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{522DB9F5-B5F1-45B5-8F76-BC77466867CB}|BD\\BD.csproj|d:\\projetos\\biblioteca\\bd\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{522DB9F5-B5F1-45B5-8F76-BC77466867CB}|BD\\BD.csproj|solutionrelative:bd\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMainMenu.cs",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Views\\FormMainMenu.cs",
+              "RelativeDocumentMoniker": "Views\\FormMainMenu.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Views\\FormMainMenu.cs",
+              "RelativeToolTip": "Views\\FormMainMenu.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAUwEgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:40:32.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\BD\\Conexao.cs",
+              "RelativeDocumentMoniker": "BD\\Conexao.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\BD\\Conexao.cs",
+              "RelativeToolTip": "BD\\Conexao.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAUwJcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:30:18.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "clsNegocio.cs",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Negocio\\clsNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\clsNegocio.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Negocio\\clsNegocio.cs",
+              "RelativeToolTip": "Negocio\\clsNegocio.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwFIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:29:42.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormAutor.cs",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Views\\FormAutor.cs",
+              "RelativeDocumentMoniker": "Views\\FormAutor.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Views\\FormAutor.cs",
+              "RelativeToolTip": "Views\\FormAutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:27:39.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormEditora.cs",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Views\\FormEditora.cs",
+              "RelativeDocumentMoniker": "Views\\FormEditora.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Views\\FormEditora.cs",
+              "RelativeToolTip": "Views\\FormEditora.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T18:27:08.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAutor.cs [Design]",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Views\\FormAutor.cs",
+              "RelativeDocumentMoniker": "Views\\FormAutor.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Views\\FormAutor.cs [Design]",
+              "RelativeToolTip": "Views\\FormAutor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:59:42.439Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormEditora.cs [Design]",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Views\\FormEditora.cs",
+              "RelativeDocumentMoniker": "Views\\FormEditora.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Views\\FormEditora.cs [Design]",
+              "RelativeToolTip": "Views\\FormEditora.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:59:11.051Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMainMenu.cs [Design]",
+              "DocumentMoniker": "D:\\Projetos\\Biblioteca\\Views\\FormMainMenu.cs",
+              "RelativeDocumentMoniker": "Views\\FormMainMenu.cs",
+              "ToolTip": "D:\\Projetos\\Biblioteca\\Views\\FormMainMenu.cs [Design]",
+              "RelativeToolTip": "Views\\FormMainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T15:16:04.322Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

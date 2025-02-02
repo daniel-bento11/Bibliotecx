@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormEditora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditora.Designer.cs">
+      <DependentUpon>FormEditora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddAutor.Designer.cs">
+      <DependentUpon>FormAddAutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutor.Designer.cs">
+      <DependentUpon>FormAutor.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormGenero.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +96,15 @@
     <Compile Include="FormAddGenero.Designer.cs">
       <DependentUpon>FormAddGenero.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAddAutor.resx">
+      <DependentUpon>FormAddAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutor.resx">
+      <DependentUpon>FormAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditora.resx">
+      <DependentUpon>FormEditora.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormGenero.resx">
       <DependentUpon>FormGenero.cs</DependentUpon>
     </EmbeddedResource>

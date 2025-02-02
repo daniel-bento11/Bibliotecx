@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainMenu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnEditora = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnLivro = new System.Windows.Forms.Button();
             this.btnAutor = new System.Windows.Forms.Button();
@@ -40,11 +39,12 @@
             this.lblUser = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnSair = new System.Windows.Forms.PictureBox();
-            this.btnPerfil = new System.Windows.Forms.PictureBox();
             this.pnPerfil = new System.Windows.Forms.Panel();
+            this.btnEditora = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnSair = new System.Windows.Forms.PictureBox();
+            this.btnPerfil = new System.Windows.Forms.PictureBox();
             this.btnFechar = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSair)).BeginInit();
@@ -72,22 +72,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(168, 451);
             this.panel1.TabIndex = 6;
-            // 
-            // btnEditora
-            // 
-            this.btnEditora.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEditora.FlatAppearance.BorderSize = 0;
-            this.btnEditora.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LavenderBlush;
-            this.btnEditora.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Thistle;
-            this.btnEditora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditora.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditora.Location = new System.Drawing.Point(0, 314);
-            this.btnEditora.Name = "btnEditora";
-            this.btnEditora.Size = new System.Drawing.Size(165, 52);
-            this.btnEditora.TabIndex = 20;
-            this.btnEditora.Text = "Editora";
-            this.btnEditora.UseVisualStyleBackColor = true;
-            this.btnEditora.Visible = false;
             // 
             // panel5
             // 
@@ -128,6 +112,7 @@
             this.btnAutor.Text = "Autores";
             this.btnAutor.UseVisualStyleBackColor = true;
             this.btnAutor.Visible = false;
+            this.btnAutor.Click += new System.EventHandler(this.btnAutor_Click);
             // 
             // btnGenero
             // 
@@ -211,6 +196,51 @@
             this.panel3.Size = new System.Drawing.Size(168, 3);
             this.panel3.TabIndex = 14;
             // 
+            // pnPerfil
+            // 
+            this.pnPerfil.BackColor = System.Drawing.Color.Lavender;
+            this.pnPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnPerfil.Location = new System.Drawing.Point(0, 0);
+            this.pnPerfil.Name = "pnPerfil";
+            this.pnPerfil.Size = new System.Drawing.Size(165, 64);
+            this.pnPerfil.TabIndex = 16;
+            // 
+            // btnEditora
+            // 
+            this.btnEditora.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditora.FlatAppearance.BorderSize = 0;
+            this.btnEditora.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LavenderBlush;
+            this.btnEditora.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Thistle;
+            this.btnEditora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditora.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditora.Location = new System.Drawing.Point(0, 314);
+            this.btnEditora.Name = "btnEditora";
+            this.btnEditora.Size = new System.Drawing.Size(165, 52);
+            this.btnEditora.TabIndex = 20;
+            this.btnEditora.Text = "Editora";
+            this.btnEditora.UseVisualStyleBackColor = true;
+            this.btnEditora.Visible = false;
+            this.btnEditora.Click += new System.EventHandler(this.btnEditora_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(174, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(304, 73);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Bibliotecx";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Location = new System.Drawing.Point(209, 68);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(281, 5);
+            this.panel2.TabIndex = 13;
+            // 
             // btnSair
             // 
             this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -233,34 +263,6 @@
             this.btnPerfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnPerfil.TabIndex = 14;
             this.btnPerfil.TabStop = false;
-            // 
-            // pnPerfil
-            // 
-            this.pnPerfil.BackColor = System.Drawing.Color.Lavender;
-            this.pnPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnPerfil.Location = new System.Drawing.Point(0, 0);
-            this.pnPerfil.Name = "pnPerfil";
-            this.pnPerfil.Size = new System.Drawing.Size(165, 64);
-            this.pnPerfil.TabIndex = 16;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(174, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(304, 73);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Bibliotecx";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(209, 68);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(281, 5);
-            this.panel2.TabIndex = 13;
             // 
             // btnFechar
             // 

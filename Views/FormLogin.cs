@@ -49,7 +49,11 @@ namespace Views
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Close();
+            DialogResult resposta = MessageBox.Show("Deseja relamente sair?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (resposta == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
